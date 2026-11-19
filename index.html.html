@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d19">
+  <meta name="description" content="Eman Abdelnaby — Data Engineering | Business & Technology. Access my CV, LinkedIn profile and infographic.">
+  <title>Eman Abdelnaby | Digital Business Card</title>
+  <style>
+    :root{--bg:#090d19;--text:#f5f6ff;--muted:#aab4cb;--cyan:#62e6dc;--violet:#a58bff;--pink:#ff83bd;--line:rgba(190,202,255,.17)}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 12% 12%,rgba(98,230,220,.16),transparent 35%),radial-gradient(ellipse at 88% 18%,rgba(165,139,255,.19),transparent 34%),radial-gradient(ellipse at 65% 95%,rgba(255,131,189,.11),transparent 38%),var(--bg);display:flex;flex-direction:column;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.15;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent 90%)}
+    .wrap{width:min(100% - 36px,780px);margin:auto;position:relative}
+    header{display:flex;justify-content:space-between;align-items:center;padding:26px 0}
+    .logo{font-size:.85rem;font-weight:850;letter-spacing:.2em}.logo span{color:var(--cyan)}
+    .label{font-size:.68rem;letter-spacing:.17em;color:var(--muted)}
+    main{padding:clamp(55px,12vh,110px) 0 70px;text-align:center}
+    .eyebrow{font-size:.7rem;letter-spacing:.23em;text-transform:uppercase;color:var(--cyan);font-weight:800}
+    h1{font-size:clamp(2.7rem,8vw,5.2rem);line-height:1.02;letter-spacing:-.065em;margin:20px 0 18px}
+    h1 span{background:linear-gradient(100deg,var(--cyan),#b8a7ff 56%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .headline{font-size:clamp(.95rem,2.8vw,1.15rem);color:#e0e5f5;letter-spacing:.025em;margin:0}
+    .intro{max-width:510px;margin:18px auto 0;color:var(--muted);font-size:.92rem;line-height:1.7}
+    .links{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:54px 0 0}
+    .card{min-height:158px;padding:22px 17px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(145deg,rgba(255,255,255,.085),rgba(255,255,255,.02));backdrop-filter:blur(12px);display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;text-align:left;transition:.2s ease}
+    .card:hover{transform:translateY(-5px);border-color:rgba(98,230,220,.6);background:rgba(27,39,66,.86)}
+    .icon{font-size:1.45rem;color:var(--cyan);font-weight:800}
+    .card strong{font-size:1rem;display:block;margin-bottom:6px}
+    .card small{font-size:.75rem;color:var(--muted);line-height:1.4}
+    .arrow{align-self:flex-end;color:var(--cyan);font-size:1.1rem}
+    footer{padding:22px 0 28px;text-align:center;color:#78839d;font-size:.7rem;letter-spacing:.12em}
+    @media(max-width:620px){.wrap{width:min(100% - 28px,780px)}header{padding:20px 0}main{padding:clamp(65px,14vh,110px) 0 55px}.links{grid-template-columns:1fr;gap:11px;margin-top:42px}.card{min-height:105px;flex-direction:row;align-items:center;gap:15px;padding:18px}.card .card-copy{flex:1}.arrow{align-self:center}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">EA<span>.</span></div>
+      <div class="label">DIGITAL BUSINESS CARD</div>
+    </header>
+    <main>
+      <div class="eyebrow">Hello, welcome to my space</div>
+      <h1>I'm <span>Eman Abdelnaby.</span></h1>
+      <p class="headline">Data Engineering | Business &amp; Technology</p>
+      <p class="intro">Connecting data, technology and business thinking to turn ideas and real-world needs into practical solutions.</p>
+      <nav class="links" aria-label="My professional links">
+        <a class="card" href="https://drive.google.com/file/d/1AI6rjXFN4uw2Jug-oR4jqmegpWSUsaP0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <span class="icon">↗</span>
+          <span class="card-copy"><strong>My CV</strong><small>View or download my resume</small></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://www.linkedin.com/in/eman-abdelnaby-data/" target="_blank" rel="noopener noreferrer">
+          <span class="icon">in</span>
+          <span class="card-copy"><strong>LinkedIn Profile</strong><small>Connect with me professionally</small></span>
+          <span class="arrow">↗</span>
+        </a>
+        <a class="card" href="https://drive.google.com/file/d/1VG_o4HojquVboJesnE1OY008X5mpAv4v/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <span class="icon">▤</span>
+          <span class="card-copy"><strong>My Infographic</strong><small>A visual overview of my profile</small></span>
+          <span class="arrow">↗</span>
+        </a>
+      </nav>
+    </main>
+    <footer>DATA · BUSINESS · TECHNOLOGY</footer>
+  </div>
+</body>
+</html>
